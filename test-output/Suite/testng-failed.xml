@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="automation(failed)">
+    <classes>
+      <class name="page.Contact1">
+        <methods>
+          <include name="login" invocation-numbers="10"/>
+        </methods>
+      </class> <!-- page.Contact1 -->
+      <class name="page.Sign_upp">
+        <methods>
+          <include name="register" invocation-numbers="17 18 20"/>
+        </methods>
+      </class> <!-- page.Sign_upp -->
+      <class name="page.Sign_Up">
+        <methods>
+          <include name="Com" invocation-numbers="12"/>
+        </methods>
+      </class> <!-- page.Sign_Up -->
+    </classes>
+  </test> <!-- automation(failed) -->
+</suite> <!-- Failed suite [Suite] -->
